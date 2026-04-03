@@ -18,9 +18,9 @@ This project demonstrates professional Node.js concepts: **Streams** for memory 
 
 ## 🛠 Installation
 
-1. **Clone the repository**:
+1.  **Clone the repository**:
     ```bash
-    git clone [https://github.com/srudnytsky/file-organizer.git] (https://github.com/srudnytsky/file-organizer.git)
+    git clone [https://github.com/srudnytsky/file-organizer.git](https://github.com/your-username/file-organizer.git)
     cd file-organizer
     ```
 
@@ -37,31 +37,31 @@ Commands are executed via `npm run <command> -- <arguments>`.
 
 ### 1. Scan Directory
 Analyze the state of a directory and see top-3 largest files.
-    ```bash
-n      pm run scan -- "C:\Users\Name\Downloads"
-    ```
+```bash
+npm run scan -- "C:\Users\Name\Downloads"
+```
 
 ### 2. Find Duplicates
 Find identical files and calculate wasted disk space.
-    ```bash
-       npm run duplicates -- "C:\Users\Name\Downloads"
-    ```
+```bash
+npm run duplicates -- "C:\Users\Name\Downloads"
+```
 
 ### 3. Organize Files
 Copy and sort files into categories. Original files are preserved.
-    ```bash
-       npm run organize -- "C:\Users\Name\Downloads" --output "D:\Organized"
-    ```
+```bash
+npm run organize -- "C:\Users\Name\Downloads" --output "D:\Organized"
+```
 
 ### 4. Cleanup Old Files
 Preview files older than 90 days (Dry Run):
-    ```bash
-       npm run cleanup -- "C:\Users\Name\Downloads" --older-than 90
-    ```
+```bash
+npm run cleanup -- "C:\Users\Name\Downloads" --older-than 90
+```
 To actually delete files, add the `--confirm` flag:
-    ```bash
-       npm run cleanup -- "C:\Users\Name\Downloads" --older-than 90 --confirm
-    ```
+```bash
+npm run cleanup -- "C:\Users\Name\Downloads" --older-than 90 --confirm
+```
 
 ---
 
@@ -87,3 +87,4 @@ file-organizer/
 * **Non-blocking I/O**: Leverages `fs/promises` for asynchronous file operations.
 * **Progress Visualization**: Custom progress bars built using the `EventEmitter` pattern to decouple business logic from the UI.
 * **Collision Handling**: When organizing, if a filename already exists in the target folder, the tool automatically appends an index: `file(1).pdf`, `file(2).pdf`, etc.
+

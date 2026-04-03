@@ -20,7 +20,7 @@ This project demonstrates professional Node.js concepts: **Streams** for memory 
 
 1.  **Clone the repository**:
     ```bash
-    git clone [https://github.com/your-username/file-organizer.git](https://github.com/your-username/file-organizer.git)
+    git clone [https://github.com/srudnytsky/file-organizer.git](https://github.com/srudnytsky/file-organizer.git)
     cd file-organizer
     ```
 
